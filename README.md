@@ -9,7 +9,7 @@ Any microphone (It will default to whatever microphone is detected e.g.: Webcam 
 Any version of the Arduino IDE will work so nothing specific for that
 - [WhisperMic](https://github.com/mallorbc/whisper_mic)
 - [Python 3.12](https://www.python.org/downloads/release/python-3129/)
-- Arduino IDE
+- [Arduino IDE](https://www.arduino.cc/en/software)
 - [PySerial](https://pypi.org/project/pyserial/)
 
 # Steps
