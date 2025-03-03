@@ -4,7 +4,7 @@ This is a very simple Arduino project involing WhisperMic in order to turn the b
 Arduino Mega 2560 Controller
 Any microphone (It will default to whatever microphone is detected e.g.: Webcam microphone, USB microphone, Headset microphone)
 # Software Components
-**IMPORTANT**: This project does not work on any Python 3.13 version, I recommend going to version 3.12
+**IMPORTANT**: This project does not work on any Python 3.13 version, I recommend going to version 3.12\n
 Any version of the Arduino IDE will work so nothing specific for that
 - [WhisperMic](https://github.com/mallorbc/whisper_mic)
 - [Python 3.12](https://www.python.org/downloads/release/python-3129/)
