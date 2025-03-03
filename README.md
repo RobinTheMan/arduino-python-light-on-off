@@ -1,5 +1,5 @@
 # Arduino-Python-Light-On-Off
-This is a very simple Arduino project involing WhisperMic in order to turn the built in light on the Arduino Mega 2560 Controller Board
+This is a very simple Arduino project involing WhisperMic in order to turn the built in light on and off on the Arduino Mega 2560 Controller Board
 # Hardware Components
 Arduino Mega 2560 Controller
 
