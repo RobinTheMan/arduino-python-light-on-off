@@ -7,11 +7,12 @@ from whisper_mic import WhisperMic
 import serial
 import time
 
-
-port = "COM3"
-baud_rate = 9600
+#The variables
+port = "COM3" #Change this port to whatever the port your computer is using for the Arduino
+baud_rate = 9600 #Standard baud_rate
 arduino = serial.Serial(port, baud_rate)
 
+#These are the keywords that when detected will work the program
 keywords = ["on", "off", "stop"]
 
 while True:
@@ -32,7 +33,7 @@ while True:
     try:
         # Send data
         try:
-            message_to_send = detected_keywords.pop()
+            message_to_send = detected_keywords.pop() #Pops out the detected keyword so it can be returned
         except IndexError: #If there are no detected keywords, it prints out a statement and just ends it there
                 print('Cannot use as input')
                 break
