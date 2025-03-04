@@ -18,3 +18,6 @@ Any version of the Arduino IDE will work so nothing specific for that
 2. Create a virtual environment (.venv or conda) for Python 3.12
 3. pip install both WhisperMic and PySerial into the venv
 4. Run the program and speak into your microphone
+
+# YouTube Demonstration
+[Video of me trying to demonstrate](https://youtu.be/fieb-uT54mU)
